@@ -10,6 +10,8 @@ This is a Streamlit app that uses the Whisper and WhisperX ASR APIs to transcrib
 
 ```bash
 pip install -r requirements.txt
+
+pip install git+https://github.com/m-bain/whisperx.git
 ```
 
 ## Usage
