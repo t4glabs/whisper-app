@@ -1,4 +1,4 @@
-# My Streamlit App
+# Whisper streamlit app
 
 This is a Streamlit app that uses the Whisper and WhisperX ASR APIs to transcribe audio files into text. The app also provides an option to translate the transcribed text into a different language using the Whisper ASR API.
 
@@ -16,7 +16,9 @@ pip install git+https://github.com/m-bain/whisperx.git
 
 ## Usage
 
-1. Run the Streamlit app using the following command:
+1. Create a .env file in /ops and put your openai api key there. 
+
+2. Run the Streamlit app using the following command:
 
 ```bash
 streamlit run src/main.py
